@@ -1,3 +1,9 @@
 # notes-to-editor
-The data science coursework of imperial collage London master course
-hjffffbjks
+
+In developing this data science report, my initial step involved a thorough examination of the dataset to understand the meaning and importance of each variable. My focus was to select variables that best showcased the dataset's characteristics regarding food access. I chose variables related to distances from supermarkets in urban and rural areas, applying a weighted average approach with specific weights (3, 1, 5) to penalize states with longer distances to food sources more heavily. This method yielded a Food Access Score reflecting each state's average accessibility level. Further, I explored the relationship between residents' average income, poverty levels, and food access scores across states, which validated the interconnectedness of economic status and food accessibility, albeit with notable exceptions that were analyzed in the article. Subsequently, I delved into the distribution of different races and age groups in relation to food access, aiming to uncover potential preferences or disparities among demographic groups. This multifaceted analysis not only shed light on the geographical and demographic nuances of food access but also highlighted the need for targeted policy interventions. By meticulously applying this structured approach and adhering to a clear and formal style guide, I crafted a report that is both informative and reflective of the complexities inherent in addressing food access disparities in the United States. 
+
+
+The project is generated using latex, following the style guide of the Economist magazine.
+
+
+To replicate my analysis, execute the script provided in the "datascience.ipynb" file. Upon running this script, all visual outputs will be available in the designated output directory. The weights assigned to each variable in the analysis are adjustable based on scientific rationale, allowing for the exploration of alternative hypotheses or the inclusion of additional variables for a broader or different analytical perspective.
